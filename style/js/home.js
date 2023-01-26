@@ -30,7 +30,6 @@ function a_clicked(number) {
   var popupScreen = document.getElementById(check);
   
   popupScreen.classList.add("activescreen");
-  
 }
 
 function close_clicked(number) {
