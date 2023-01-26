@@ -1,0 +1,189 @@
+/* Name: Truong Duc Dang
+Date: December 09, 2022
+Course/Section: IT 202 001
+Semester Project Phase 3 */
+
+:root {
+    --color1: #1c3461;
+    --color2: #f8cc5c;
+    --color3: #a9b4c8; /* color for subtitle */
+    --color4: #FEFEFE; /* color for more detail */
+    --color5: #f5f8fe; /* background create */
+    --color6: #1c3461;
+    --color7: #f79ea0; /* out border */
+    --color8: #ffd5d0; /* in border */
+}
+
+header {
+    padding: 0 0 10px 0;
+    border-bottom: double;
+    border-width: 5px;
+    border-color: var(--color2);
+}
+
+body {
+    margin: 1cm 3cm 0 3cm;
+    background-color: var(--color1);
+    font-family: raleway;
+}
+
+p, h1, h2, h3, h4, h5 {
+    color: white;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 900;
+    margin: 0;
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 50;
+    color: var(--color3);
+    margin: 0;
+}
+
+h4 {
+    font-size: 25px;
+    font-style: italic;
+    font-weight:lighter;
+    color: var(--color3);
+    margin: 0;
+}
+
+p {
+    text-align: justify;
+}
+
+.title {
+    color: var(--color2);
+    margin: 15px 0 0 0;
+}
+
+.author {
+    margin: 0 0 15px 0;
+    font-size: 25px;
+}
+
+.description {
+    font-size: 22px;
+    color: var(--color3);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+*{
+    transition:all 0.2s ease-in-out;
+}
+
+.container {
+    clear: both;
+    overflow: auto;
+}
+
+.logo img{
+    float: left;
+}
+nav {
+    float: right;
+}
+
+header ul li {
+    display: inline-block; 
+}
+
+header ul a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px; 
+    font-family: raleway;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+header ul a:hover{
+    background-color: white;
+    color: black;
+}
+
+.active {
+    background-color: var(--color2);
+    color: white;
+}
+
+.textbyimage {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+  
+.image {
+    flex-basis: 40%
+}
+  
+.text {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.moredetail {
+    color: var(--color4);
+    font-size: 20px;
+    margin-left: 50px;
+}
+.moredetail a{
+    text-decoration: none;
+    color: var(--color4);
+}
+.moredetail a:hover {
+    background-color: var(--color2);
+    color: black;
+    border-radius: 5px;
+}
+
+i {
+    color: var(--color2);
+    font-weight: 700;
+    padding: 50px 0 0 0;
+}
+
+footer {
+    border-top: double;
+    border-color: var(--color2);
+    border-width: 5px;
+    margin: 10px 0 10px 0;
+}
+th {
+    color: var(--color2);
+    font-size: 21px;
+}
+.col1 {
+    color: white;
+}
+.col2 {
+    color: var(--color8);
+}
+.col3 {
+    color: aqua;
+}
+.col4 {
+    color: white;
+}
+.col5 {
+    color: red;
+    text-align: right;
+    font-weight: bolder;
+}
+th, td {
+    border: 0.5px solid pink;
+}
+th {
+    background-color: var(--color5);
+}
+table {
+    border: 1px solid red;
+}
